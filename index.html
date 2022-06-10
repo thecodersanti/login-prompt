@@ -2,6 +2,9 @@
     let login = prompt('Enter Login');
     if (login == 'Admin') {
         let pwd = prompt('Enter Password');
+        if (pwd == 'TheMaster') {
+            alert('Welcome!');
+        }
     } else if (login == '' || null) {
         alert('Canceled');
     } else {
