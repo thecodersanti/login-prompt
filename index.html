@@ -4,12 +4,12 @@
         let pwd = prompt('Enter Password');
         if (pwd == 'TheMaster') {
             alert('Welcome!');
-        } else if (pwd == '' || null) {
+        } else if (pwd == '' || pwd == null) {
             alert('Canceled');
         } else {
             alert('Wrong Password');
         }
-    } else if (login == '' || null) {
+    } else if (login == '' || login == null) {
         alert('Canceled');
     } else {
         alert("I don't know you");
