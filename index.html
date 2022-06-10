@@ -4,6 +4,8 @@
         let pwd = prompt('Enter Password');
         if (pwd == 'TheMaster') {
             alert('Welcome!');
+        } else if (pwd == '' || null) {
+            alert('Canceled');
         }
     } else if (login == '' || null) {
         alert('Canceled');
